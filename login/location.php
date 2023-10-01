@@ -41,24 +41,50 @@
          letter-spacing: 15px;
          font-family: "consolas", sans-serif;
      }
+    
+
+product{ 
+
+font-family:'Times New Roman', Times, serif; 
+
+text-align: center; 
+
+font-size: 30px; 
+
+font-weight: bold; 
+
+margin-top: 80px; 
+
+padding: 10px; 
+
+color: #189AB4; 
+
+position: relative; 
+
+} 
+
+#product::before{ 
+content: ''; 
+
+position: absolute; 
+
+width: 100px; 
+
+height: 3px; 
+
+background-color: #189AB4; 
+
+bottom: -10px; 
+
+left: 50%; 
+
+transform: translate(-50%); 
+
+animation: animate 4s linear infinite; 
+
+} 
      
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
+ 
      @keyframes animate {
          0%{
              width: 100px;
@@ -140,16 +166,42 @@
     <div>
         <h1 style="text-align:center;white-space:pre-wrap;">WHERE YOU CAN FIND US?</h1> <br>
     
+        <p class="details"> 
 
+<strong>ADDRESS BRANCH Main</strong> 
 
+<br>39 Howards Road, Station 2, Tarlac City 
 
+<br>Tarlac, Philippines 2300 
 
+<br><br> 
 
+ 
 
+ <strong>ADDRESS - BRANCH 2</strong> 
 
+<br>3559 Carangian, Station 2, Angeles City 
 
+<br>Pampangga, Philippines 2352 
 
+<br><br> 
 
+ 
+
+<strong>ADDRESS BRANCH 3</strong> 
+
+<br>3944 Howards Road, Station 2, Bulacan City 
+
+<br>Bulacan, Philippines 2300 
+
+<br><br> 
+
+ 
+
+<strong>SOCIAL MEDIA: </strong> 
+
+@moncafe <br> 
+ <br> 
 
 
 

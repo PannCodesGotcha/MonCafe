@@ -50,7 +50,86 @@ if (!isLoggedIn()) {
             font-size: large;
             margin-bottom: 20px;
         }
-        
+        @media screen and (max-width:710px) { 
+
+ .main-form{ 
+
+ text-align: center; 
+
+ } 
+
+} 
+
+ .main-form{ 
+
+text-align: center; 
+} 
+
+ .main-form div{ 
+
+
+ width: 300px; 
+
+margin: 10px 10px; 
+
+} 
+
+ .main-form div input{ 
+
+width: 100%; 
+
+font-family: 'Times New Roman', Times, serif; 
+
+background: none; 
+
+border: 1px solid rgb(236, 153, 0); 
+font-size: 20px; 
+
+color: white; 
+
+outline: none; 
+
+padding: 3px 0px 10px; 
+
+margin-top: 10px; 
+
+} 
+
+.main-form div select{ 
+
+width: 100%; 
+
+font-family: 'Times New Roman', Times, serif; 
+
+background: none; 
+
+border: 1px solid rgb(236, 153, 0); 
+
+font-size: 20px; 
+
+
+
+margin-top: 10px; 
+
+ } 
+
+ #opt{ 
+
+color: black; 
+
+} 
+
+.main-form div span{ 
+
+width: 100%; 
+
+font-family: 'Times New Roman', Times, serif; 
+
+color: white; 
+
+font-size: 25px; 
+
+} 
 
 
 
