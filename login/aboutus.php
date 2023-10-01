@@ -2,21 +2,127 @@
 <html lang="en">
 <head>
   <style>
+ *{margin: 0; 
 
+     padding: 0; 
 
+     box-sizing: border-box; 
 
+    } 
 
+     body{ 
 
+         margin: 0; 
 
+         padding: 0; 
 
+         width: 100%; 
 
+         height: 100vh; 
 
+         position: relative; 
 
+         padding-bottom: 0px; 
 
+         min-height: 100vh; 
 
+     } 
 
+     .titledesign{ 
 
+         width: 100%; 
 
+         height: 100%; 
+
+         overflow: hidden; 
+
+         position: relative; 
+
+         background-image: url('images/img/bg.jpg'); 
+
+         background-position: center; 
+
+         background-repeat: no-repeat; 
+
+         background-size: cover; 
+
+         text-align: center; 
+
+         justify-content: center; 
+
+         
+
+     } 
+
+     .title{ 
+
+         position: absolute; 
+
+         top: 50%; 
+
+         left: 50%; 
+
+         transform: translate(-50%, -50%); 
+
+         text-transform: uppercase; 
+
+     } 
+
+     .title h1{ 
+
+         color: hsl(0, 0%, 100%); 
+
+         font-size: 60px; 
+
+         letter-spacing: 15px; 
+
+         font-family: "consolas", sans-serif; 
+
+     } 
+
+      
+
+     #product{ 
+
+         font-family:'Times New Roman', Times, serif; 
+
+         text-align: center; 
+
+         font-size: 30px; 
+
+         font-weight: bold; 
+
+         margin-top: 80px; 
+
+         padding: 10px; 
+
+         color: #189AB4; 
+
+         position: relative; 
+
+     } 
+
+     #product::before{ 
+
+         content: ''; 
+
+         position: absolute; 
+
+         width: 100px; 
+
+         height: 3px; 
+
+         background-color: #189AB4; 
+
+         bottom: -10px; 
+
+         left: 50%; 
+
+         transform: translate(-50%); 
+
+         animation: animate 4s linear infinite; 
+
+     } 
 
 
      @keyframes animate {
