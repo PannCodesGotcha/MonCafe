@@ -152,48 +152,7 @@ button[name=register_btn] {
 		}
 		
 </style>
-</style>
 
-</head>
-<body>
-	<div class="header">
-	<h1><span>︵‿୨</span>Create User <span>୧‿︵</span></h1>
-	</div>
-	
-	<form method="post" action="create_user.php">
-
-		<?php echo display_error(); ?>
-
-		<div class="input-group">
-			<label>Username</label>
-			<input type="text" name="username" value="<?php echo $username; ?>">
-		</div>
-		<div class="input-group">
-			<label>Email</label>
-			<input type="email" name="email" value="<?php echo $email; ?>">
-		</div>
-		<div class="input-group">
-			<label>User type</label>
-			<select name="user_type" id="user_type" >
-				<option value=""></option>
-				<option value="admin" id="options">Admin</option>
-				<option value="user" id="options">User</option>
-			</select>
-		</div>
-		<div class="input-group">
-			<label>Password</label>
-			<input type="password" name="password_1">
-		</div>
-		<div class="input-group">
-			<label>Confirm password</label>
-			<input type="password" name="password_2">
-		</div>
-		<div class="input-group">
-			<button type="submit" class="btn" name="register_btn"> + Create User</button>
-		</div>
-	</form>
-</body>
-</html>
 </head>
 <body>
 	<div class="header">
