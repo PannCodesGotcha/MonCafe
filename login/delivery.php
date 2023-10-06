@@ -93,15 +93,19 @@
  
         </div>
     </div>
-    
+     <div class="foodapp"> 
 
+<h2 style="align-items:center;">PLACE YOUR ORDER VIA </h2> 
 
+ <div class="apps"> 
 
+ <a id="fdlogo" href="https://www.foodpanda.ph/" target="_blank"><img src="images/fd.png" title="Food Panda" alt="Food Panda"></a> 
 
+ <a id="gflogo" href="https://food.grab.com/ph/" target="_blank"><img src="images/gf.png" title="Grab Food" alt="Grab Food"></a> 
 
+ </div> 
 
-
-
+</div> 
 
 </div>
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
@@ -138,12 +142,17 @@
 <div>
 <footer id="footer">                  
 <nav>
+<div class="back-to-top" id="topButton""><a href="#topd"  style="color: darkslategray">Back to Top</a></div> 
 
+</nav> 
 
+<p>Made with love and a drop of unicorn blood. </p> 
 
+<div>  
 
+<p>Privacy &nbsp | &nbsp Terms</p>  
 
-
+</div> 
 
 </div>
 </footer>      
